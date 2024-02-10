@@ -1,0 +1,11 @@
+<%- include("partial/header.ejs") %>
+
+<h1 class="text-center">Enter your Essay Here</h1>
+
+<form class="form py-5 container-sm" action="/success" method="post">
+    <input name="title" type="text" placeholder="Enter your title">
+    <textarea name="content" rows="10" cols="50" placeholder="Enter your content"></textarea>
+    <button type="submit">click here</button>
+</form>
+
+<%- include("partial/footer.ejs") %>

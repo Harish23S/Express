@@ -1,0 +1,29 @@
+footer{
+    background-color: aliceblue;
+}
+
+.image-random{
+    height: 300px;
+    width: 300px;
+}
+
+.list-item{
+    padding: 10px;
+}
+
+.list-item li{
+    list-style: none;
+    padding: 15px;
+}
+
+a{
+    color: black;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50vw !important;
+}
